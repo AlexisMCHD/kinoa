@@ -1,0 +1,48 @@
+body {
+    background-color: #101010;
+    color: #DEDEDE;
+    font-family: 'Gayathri', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies-list a {
+    display: block;
+    width: 240px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.movies-list a img {
+    width: 100%;
+}
+
+.movie-detail {
+    display: flex;
+}
+
+.movie-detail .left-col {
+    margin-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.badge {
+    border-radius: 5px;
+    background-color: khaki;
+    color: #000;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 10px 0 10px;
+}
